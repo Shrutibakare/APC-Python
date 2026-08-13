@@ -1,0 +1,6 @@
+file = open("ex.txt","a+")
+file.write("\nAdded new content")
+file.seek(0)
+data = file.read()
+print(data)
+file.close()
