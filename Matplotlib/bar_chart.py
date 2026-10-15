@@ -1,0 +1,10 @@
+import matplotlib.pyplot as plt
+
+students = ["Amit", "Sam", "Priya", "Rahul"]
+marks = [75, 95, 85, 80]
+plt.bar(students,marks)
+plt.title("Student Marks:")
+plt.xlabel("Students")
+plt.ylabel("Marks")
+
+plt.show()
